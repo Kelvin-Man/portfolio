@@ -301,6 +301,9 @@ article.active {
     color: var(--light-gray70);
     font-size: var(--fs8);
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 /*NAVBAR*/
@@ -357,7 +360,7 @@ article.active {
 
 .about-text p {
     margin-bottom: 15px;
-    text-align: justify;
+    text-align: left;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -427,7 +430,8 @@ article.active {
 
 .timeline-sub-item {
     position: relative;
-    left: 22px
+    left: 22px;
+    margin-right: 22px;
 }
 
 .timeline-sub-item:not(:last-child)::before {
@@ -491,6 +495,9 @@ article.active {
     font-size: var(--fs6);
     line-height: 1.5;
     margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .skills-item-wrapper table {
